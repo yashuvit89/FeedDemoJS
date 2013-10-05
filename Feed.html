@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Feed Reader</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="titleHeader">
+			<h1>ACME Feed Reader</h1>
+		</div>
+		<hr>
+		<div class="links">
+			<button class="feedLink" id="feed1">Feed1</button>
+			<button class="feedLink" id="feed2">Feed2</button>
+			<button class="feedLink" id="feed3">Feed3</button>
+			<button class="feedLink" id="feed4">Feed4</button>
+<!--             <ul>
+    <li class="feedLink" id="feed1"><a href="">Feed1</a></li>
+    <li class="feedLink" id="feed2"><a href="">Feed2</a></li>
+    <li class="feedLink" id="feed3"><a href="">Feed3</a></li>
+    <li class="feedLink" id="feed4"><a href="">Feed4</a></li>
+</ul>	 -->
+		</div>
+		<div class="actualFeed">
+			<div class="feedBox">
+				<div class="feedImage"></div>
+				<div class="feedContent">
+					<ul id="feedList">
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="pagination">
+			<button id="prev">Prev</button>
+			<span id="pageNumber"></span>
+			<button id="next">Next</button>
+		</div>
+	</div>
+		
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="feed.js"></script>
+</body>
+</html>

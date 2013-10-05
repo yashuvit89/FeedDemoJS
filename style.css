@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	
+}
+
+.container{
+	width: 940px;
+	margin:auto;
+}
+
+.links > .feedLink {
+width: 165px;
+height: 35px;
+margin: 30px;
+}
+
+.pagination > button {
+margin: 25px;
+width: 60px;
+height: 30px;
+}
